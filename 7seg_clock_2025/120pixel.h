@@ -17,3 +17,12 @@ const int digitSegments[10][29] = {
 const int digit = 29;
 const int coron_number = 4;
 const int coron_digits[digit]= {58, 59, 60 ,61};
+
+// 4colorの場合
+// 例：各桁の色をhueで指定（0～65535で好きな値）
+uint16_t digit_hues[4] = {
+  19500,   // 1桁目：skyblue
+  19500,  // 2桁目：skyblue
+  12000,  // 3桁目：lime
+  12000   // 4桁目：lime
+};
